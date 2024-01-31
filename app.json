@@ -16,7 +16,8 @@
     ],
     "ios": {
       "googleServicesFile": "./GoogleService-Info.plist",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.LoginApp.LoginApp"
     },
     "android": {
       "googleServicesFile": "google-services.json",
@@ -39,6 +40,11 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6813c97d-5cb5-45a9-9f71-1d06b9a59226"
+      }
+    }
   }
 }
