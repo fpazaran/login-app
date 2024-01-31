@@ -11,9 +11,6 @@ async function createProfile(user, name, email) {
 };
 
 export default async function signUp(email, password, name, {navigation}){
-    email = 'pazaranfernando@gmail.com'
-    password = 'Fernando'
-    name = 'Fernando'
     
     if(email != '' && password != ''){
             await createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
